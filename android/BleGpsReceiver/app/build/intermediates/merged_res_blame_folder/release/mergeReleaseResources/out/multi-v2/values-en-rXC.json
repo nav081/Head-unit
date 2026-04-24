@@ -4,23 +4,6 @@
             "outputFile": "com.example.blegps.app-mergeReleaseResources-45:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\9c09c7e76b812ed5366d74e369a5ab96\\transformed\\foundation-release\\res\\values-en-rXC\\values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,243",
-                        "endColumns": "187,186",
-                        "endOffsets": "238,425"
-                    },
-                    "to": {
-                        "startLines": "83,84",
-                        "startColumns": "4,4",
-                        "startOffsets": "16617,16805",
-                        "endColumns": "187,186",
-                        "endOffsets": "16800,16987"
-                    }
-                },
-                {
                     "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\3d909b49806cc9f2c3e05e0dc4738eed\\transformed\\ui-release\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
@@ -35,6 +18,23 @@
                         "startOffsets": "1532,1723,1908,2105,2307,2494,2679,14590,14778,14965,15130,15297,15478,15663,16033,16212,16379",
                         "endColumns": "190,184,196,201,186,184,192,187,186,164,166,180,184,165,178,166,237",
                         "endOffsets": "1718,1903,2100,2302,2489,2674,2867,14773,14960,15125,15292,15473,15658,15824,16207,16374,16612"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\54db7f0a982121f2ff68da18cc808b96\\transformed\\foundation-release\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,243",
+                        "endColumns": "187,186",
+                        "endOffsets": "238,425"
+                    },
+                    "to": {
+                        "startLines": "83,84",
+                        "startColumns": "4,4",
+                        "startOffsets": "16617,16805",
+                        "endColumns": "187,186",
+                        "endOffsets": "16800,16987"
                     }
                 },
                 {

@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\54db7f0a982121f2ff68da18cc808b96\\transformed\\foundation-release\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,143",
+                        "endColumns": "87,86",
+                        "endOffsets": "138,225"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "10672,10760",
+                        "endColumns": "87,86",
+                        "endOffsets": "10755,10842"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\5e3fdc4a5793aab8a8e5557707a00883\\transformed\\play-services-basement-18.4.0\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -69,23 +86,6 @@
                         "startOffsets": "3727,3846,3961,4068,4185,4286,4381,4493,4630,4750,4891,4975,5078,5167,5263,5382,5505,5613,5740,5863,5990,6149,6276,6399,6519,6638,6728,6828,6946,7079,7174,7280,7387,7510,7640,7748,7844,7923,8020,8116,8205,8289,8396,8476,8559,8658,8756,8851,8950,9036,9137,9235,9337,9453,9533,9642",
                         "endColumns": "118,114,106,116,100,94,111,136,119,140,83,102,88,95,118,122,107,126,122,126,158,126,122,119,118,89,99,117,132,94,105,106,122,129,107,95,78,96,95,88,83,106,79,82,98,97,94,98,85,100,97,101,115,79,108,103",
                         "endOffsets": "3841,3956,4063,4180,4281,4376,4488,4625,4745,4886,4970,5073,5162,5258,5377,5500,5608,5735,5858,5985,6144,6271,6394,6514,6633,6723,6823,6941,7074,7169,7275,7382,7505,7635,7743,7839,7918,8015,8111,8200,8284,8391,8471,8554,8653,8751,8846,8945,9031,9132,9230,9332,9448,9528,9637,9741"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\9c09c7e76b812ed5366d74e369a5ab96\\transformed\\foundation-release\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,143",
-                        "endColumns": "87,86",
-                        "endOffsets": "138,225"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "10672,10760",
-                        "endColumns": "87,86",
-                        "endOffsets": "10755,10842"
                     }
                 },
                 {

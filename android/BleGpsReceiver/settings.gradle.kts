@@ -16,3 +16,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "BleGpsReceiver"
 include(":app")
+include(":ble")
+include(":navigation")
+include(":ui")

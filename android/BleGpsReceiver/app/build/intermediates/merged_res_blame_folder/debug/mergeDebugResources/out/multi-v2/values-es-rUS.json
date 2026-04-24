@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.blegps.app-mergeDebugResources-46:/values-es-rUS/values-es-rUS.xml",
+            "outputFile": "com.example.blegps.app-mergeDebugResources-48:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\5b89f454f78dfff11ec5a3b28c50427c\\transformed\\play-services-base-18.5.0\\res\\values-es-rUS\\values.xml",

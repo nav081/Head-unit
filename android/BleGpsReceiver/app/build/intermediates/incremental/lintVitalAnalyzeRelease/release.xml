@@ -20,11 +20,16 @@
   </testSourceProviders>
   <testFixturesSourceProviders>
   </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="MAPS_API_KEY"
+        value="AIzaSyAYtVUg4GpxhSCnEEigSqjvzbM2N4Mn1Yw" />
+  </manifestPlaceholders>
   <artifact
       classOutputs="build\intermediates\javac\release\compileReleaseJavaWithJavac\classes;build\tmp\kotlin-classes\release;build\kotlinToolingMetadata;build\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\processReleaseResources\R.jar"
       type="MAIN"
       applicationId="com.example.blegps"
-      generatedSourceFolders="build\generated\ap_generated_sources\release\out"
+      generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\source\buildConfig\release"
       generatedResourceFolders="build\generated\res\resValues\release"
       desugaredMethodsFiles="C:\Users\rohit\.gradle\caches\9.0.0\transforms\51725417c4a1f751211c0ccc74da0048\transformed\D8BackportedDesugaredMethods.txt">
   </artifact>

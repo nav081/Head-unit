@@ -4,6 +4,23 @@
             "outputFile": "com.example.blegps.app-mergeReleaseResources-45:/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\54db7f0a982121f2ff68da18cc808b96\\transformed\\foundation-release\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,155",
+                        "endColumns": "99,101",
+                        "endOffsets": "150,252"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "10985,11085",
+                        "endColumns": "99,101",
+                        "endOffsets": "11080,11182"
+                    }
+                },
+                {
                     "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\5b89f454f78dfff11ec5a3b28c50427c\\transformed\\play-services-base-18.5.0\\res\\values-es-rUS\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,23 +69,6 @@
                         "startOffsets": "837,936,3347,3445,3548,3637,3716,10052,10144,10231,10295,10359,10446,10536,10714,10792,10862",
                         "endColumns": "98,81,97,102,88,78,95,91,86,63,63,86,89,76,77,69,122",
                         "endOffsets": "931,1013,3440,3543,3632,3711,3807,10139,10226,10290,10354,10441,10531,10608,10787,10857,10980"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\9c09c7e76b812ed5366d74e369a5ab96\\transformed\\foundation-release\\res\\values-es-rUS\\values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,155",
-                        "endColumns": "99,101",
-                        "endOffsets": "150,252"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "10985,11085",
-                        "endColumns": "99,101",
-                        "endOffsets": "11080,11182"
                     }
                 },
                 {

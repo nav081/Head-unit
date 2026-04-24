@@ -80,6 +80,7 @@
     <item name="is_pooling_container_tag" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="maps_compose_nodraw_container_view" type="id"/>
     <item name="pooling_container_listener_holder_tag" type="id"/>
     <item name="report_drawn" type="id"/>
     <item name="tag_accessibility_actions" type="id"/>

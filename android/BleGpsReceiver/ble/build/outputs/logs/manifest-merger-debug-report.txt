@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml:2:13-83
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml:2:13-83
+	package
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml
+	xmlns:android
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml:2:23-81
+uses-sdk
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml reason: use-sdk injection requested
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml
+	android:targetSdkVersion
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml
+	android:minSdkVersion
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\ble\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest4937408608009073565.xml

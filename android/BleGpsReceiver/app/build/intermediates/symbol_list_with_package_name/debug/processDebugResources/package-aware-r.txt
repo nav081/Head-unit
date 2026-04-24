@@ -195,6 +195,7 @@ id italic
 id light
 id line1
 id line3
+id maps_compose_nodraw_container_view
 id none
 id normal
 id notification_background

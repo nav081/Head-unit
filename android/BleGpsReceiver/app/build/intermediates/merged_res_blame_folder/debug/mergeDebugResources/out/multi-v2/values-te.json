@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.blegps.app-mergeDebugResources-46:/values-te/values-te.xml",
+            "outputFile": "com.example.blegps.app-mergeDebugResources-48:/values-te/values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\rohit\\.gradle\\caches\\9.0.0\\transforms\\d748e58f66ec63acdba4e0c57e950ee6\\transformed\\core-1.13.1\\res\\values-te\\values-te.xml",

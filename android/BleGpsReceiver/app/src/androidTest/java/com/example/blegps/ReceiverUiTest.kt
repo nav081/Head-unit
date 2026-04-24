@@ -23,7 +23,7 @@ class ReceiverUiTest {
     ).around(composeTestRule)
 
     @Test
-    fun showsReceiverHomeTab() {
-        composeTestRule.onNodeWithText("Receiver Home").assertIsDisplayed()
+    fun showsMapTab() {
+        composeTestRule.onNodeWithText("Map").assertIsDisplayed()
     }
 }
