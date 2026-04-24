@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.blegps.ReceiverUiTest" tests="1" failures="0" errors="0" skipped="0" time="3.334" timestamp="2026-04-24T09:31:14" hostname="localhost">
+  <properties>
+    <property name="device" value="Medium_Phone_API_36.1(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="showsReceiverHomeTab" classname="com.example.blegps.ReceiverUiTest" time="2.754" />
+</testsuite>

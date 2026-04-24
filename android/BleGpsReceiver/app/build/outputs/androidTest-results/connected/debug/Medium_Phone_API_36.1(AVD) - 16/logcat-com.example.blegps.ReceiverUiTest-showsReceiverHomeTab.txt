@@ -1,0 +1,311 @@
+04-24 15:01:10.065 11285 11302 I TestRunner: started: showsReceiverHomeTab(com.example.blegps.ReceiverUiTest)
+04-24 15:01:10.157 11285 11302 I UiAutomation: Initialized for user 0 on display 0
+04-24 15:01:10.163  2015  2440 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+04-24 15:01:10.165   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.165   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.166   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.166   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.168  2015  2188 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-24 15:01:10.169   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.169   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.169  2015  2188 I AiAiEcho: EchoTargets:
+04-24 15:01:10.169  2015  2188 I AiAiEcho: Filtered by AiAi flag check:
+04-24 15:01:10.169  2015  2188 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-24 15:01:10.169 11285 11302 I UiAutomationPermGranter: Attempting to grant android.permission.ACCESS_FINE_LOCATION to com.example.blegps
+04-24 15:01:10.171   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.170  2015  2188 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-24 15:01:10.172  2015  2188 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-24 15:01:10.172  2015  2188 I AiAiEcho: EchoTargets:
+04-24 15:01:10.172  2015  2188 I AiAiEcho: Filtered by AiAi flag check:
+04-24 15:01:10.172  2015  2188 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-24 15:01:10.172   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.172  2015  2188 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-24 15:01:10.172  2015  2188 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-24 15:01:10.172  2015  2188 I AiAiEcho: EchoTargets:
+04-24 15:01:10.172  2015  2188 I AiAiEcho: Filtered by AiAi flag check:
+04-24 15:01:10.172  2015  2188 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-24 15:01:10.174 11285 11302 I UiAutomationPermGranter: Attempting to grant android.permission.BLUETOOTH_CONNECT to com.example.blegps
+04-24 15:01:10.176  2015  2188 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-24 15:01:10.177 11285 11302 I UiAutomationPermGranter: Attempting to grant android.permission.BLUETOOTH_SCAN to com.example.blegps
+04-24 15:01:10.179   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.181  2015  2188 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface ambientcue with targets# 0 (types=[])
+04-24 15:01:10.181   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.181   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.181   807   807 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+04-24 15:01:10.182 11285 11302 I UiAutomationPermGranter: Attempting to grant android.permission.POST_NOTIFICATIONS to com.example.blegps
+04-24 15:01:10.182  2015  2188 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+04-24 15:01:10.183   807   807 D PermissionMonitor: setLocalNetworkPermissions in onPermissionsChanged took 8 microseconds.
+04-24 15:01:10.183  2015  2188 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+04-24 15:01:10.183  1315  1467 I AmbientCueRepository: Receiving SmartSpace targets # 0
+04-24 15:01:10.184   807   807 D PermissionMonitor: setLocalNetworkPermissions in onPermissionsChanged took 18 microseconds.
+04-24 15:01:10.185   807   807 D PermissionMonitor: setLocalNetworkPermissions in onPermissionsChanged took 11 microseconds.
+04-24 15:01:10.186   807   807 D PermissionMonitor: setLocalNetworkPermissions in onPermissionsChanged took 10 microseconds.
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: enableTracing failed. You may need to upgrade your androidx.tracing:tracing version
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/~~W5BZUuJeum5kHdfV-SuWxg==/com.example.blegps-M5SIw9cO1Lkw_0qP3XHeLA==/base.apk!classes6.dex)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:53)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:49)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:190)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:41)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:33)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:11)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:38)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:12)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.DaggerBaseLayerComponent$BaseLayerComponentImpl.idlingResourceRegistry(DaggerBaseLayerComponent.java:279)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:64)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.EspressoLink_androidKt.runEspressoOnIdle(EspressoLink.android.kt:92)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.EspressoLink.runUntilIdle(EspressoLink.android.kt:79)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.compose.ui.test.AndroidComposeUiTestEnvironment.runTest(ComposeUiTest.android.kt:320)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.compose.ui.test.junit4.AndroidComposeTestRule$apply$1.evaluate(AndroidComposeTestRule.android.kt:271)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:150)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:68)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:59)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:467)
+04-24 15:01:10.198 11285 11302 E AndroidXTracer: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2627)
+04-24 15:01:10.198 11285 11302 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+04-24 15:01:10.198  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:10.198  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:10.198  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:10.198  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:10.198  1628  1628 I SsBaseTemplateCard: Secondary card pane is null
+04-24 15:01:10.206  1315  1315 W SsPagerDots: Total number of pages invalid: 0. Assuming 1 page.
+04-24 15:01:10.230 11285 11302 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@c7b938e]
+04-24 15:01:10.271 11285 11302 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+04-24 15:01:10.274 11285 11302 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+04-24 15:01:10.282   807  2673 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@63ddfdfb does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-24 15:01:10.289   646   790 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+04-24 15:01:10.294  1628  1628 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused] -[state_user_active]
+04-24 15:01:10.294  1628  1628 D BaseActivity: Launcher flags updated: [state_started|state_window_focused] -[state_resumed|state_deferred_resumed]
+04-24 15:01:10.296  1628  1628 W SplitSelectStateCtor: Missing session instanceIds
+04-24 15:01:10.297  1628  1628 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+04-24 15:01:10.309  1628  1628 D RecentsView: onTaskDisplayChanged: 17, new displayId = 0
+04-24 15:01:10.309  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:10.324  1315  1459 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@f5d50fe
+04-24 15:01:10.334  1628  1628 D BaseActivity: Launcher flags updated: [state_started] -[state_window_focused]
+04-24 15:01:10.367 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: PRE_ON_CREATE
+04-24 15:01:10.369 11285 11285 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+04-24 15:01:10.383 11285 11306 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+04-24 15:01:10.383 11285 11306 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+04-24 15:01:10.446 11285 11306 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-24 15:01:10.446 11285 11306 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-24 15:01:10.487 11285 11285 D DesktopExperienceFlags: Toggle override initialized to: false
+04-24 15:01:10.487 11285 11285 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+04-24 15:01:10.537   596   596 I RanchuHwc: logCompositionFallbackIfChanged: layer 48 CompositionType fallback from 2 to 1
+04-24 15:01:10.538  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:10.539  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:10.568 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: CREATED
+04-24 15:01:10.568 11285 11285 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.blegps.ui.MainActivity@41dd7ec
+04-24 15:01:10.570 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: STARTED
+04-24 15:01:10.570 11285 11285 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.blegps.ui.MainActivity@41dd7ec
+04-24 15:01:10.579 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: RESUMED
+04-24 15:01:10.579 11285 11285 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.blegps.ui.MainActivity@41dd7ec
+04-24 15:01:10.597 11285 11285 W HWUI    : Unknown dataspace 0
+04-24 15:01:10.620 11285 11285 D CompatChangeReporter: Compat change id reported: 263076149; UID 10241; state: ENABLED
+04-24 15:01:10.705  8133  8146 I BluetoothAdapterProperties: getBondedDevices: length=0
+04-24 15:01:10.784  1628  1628 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-24 15:01:10.791  1315  1678 D WallpaperService: onVisibilityChanged(false): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@1698e7d
+04-24 15:01:10.798  1628  1628 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+04-24 15:01:10.903  2015  2548 W AiAiEcho: LyftNotificationParser Ridesharing ETA not enabled
+04-24 15:01:10.903  2015  2548 I AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+04-24 15:01:10.986  1315  1498 I PluginActionManager[com.android.systemui.action.PLUGIN_NOTIFICATION_MENU_ROW]: Found 0 plugins
+04-24 15:01:11.007 11285 11289 I .example.blegps: Compiler allocated 5082KB to compile void android.view.ViewRootImpl.performTraversals()
+04-24 15:01:11.067 11285 11285 D VRI[MainActivity]: WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+04-24 15:01:11.069 11285 11285 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@4df7a96
+04-24 15:01:11.207 11285 11285 I HWUI    : Using FreeType backend (prop=Auto)
+04-24 15:01:11.267 11285 11285 W .example.blegps: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-24 15:01:11.267 11285 11285 W .example.blegps: Common causes for lock verification issues are non-optimized dex code
+04-24 15:01:11.267 11285 11285 W .example.blegps: and incorrect proguard optimizations.
+04-24 15:01:11.267 11285 11285 W .example.blegps: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+04-24 15:01:11.267 11285 11285 W .example.blegps: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-24 15:01:11.267 11285 11285 W .example.blegps: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+04-24 15:01:11.268 11285 11285 W .example.blegps: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+04-24 15:01:11.340   646   679 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10241 pid=0
+04-24 15:01:11.340   646   679 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10241 => denied (494 us)
+04-24 15:01:11.340   646   679 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10241 pid=0
+04-24 15:01:11.340   646   678 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10241 pid=11285
+04-24 15:01:11.340   646   679 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10241 => denied (632 us)
+04-24 15:01:11.340   646   678 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10241 => denied (599 us)
+04-24 15:01:11.341   646   679 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10241 pid=0
+04-24 15:01:11.341   646   679 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10241 => denied (658 us)
+04-24 15:01:11.342   646   678 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10241 pid=11285
+04-24 15:01:11.342   646   678 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10241 => denied (1345 us)
+04-24 15:01:11.471   807   913 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10241 pid=0
+04-24 15:01:11.471   807   913 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10241 => denied (181 us)
+04-24 15:01:11.471   807   913 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10241 pid=0
+04-24 15:01:11.471   807   913 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10241 => denied (97 us)
+04-24 15:01:11.471   807   913 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10241 pid=0
+04-24 15:01:11.471   807   913 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10241 => denied (53 us)
+04-24 15:01:11.477   807   833 I ActivityTaskManager: Displayed com.example.blegps/.ui.MainActivity for user 0: +1s197ms
+04-24 15:01:11.485 11285 11297 I HWUI    : Davey! duration=860ms; Flags=1, FrameTimelineVsyncId=34562, IntendedVsync=1911808114584, Vsync=1911858114582, InputEventId=0, HandleInputStart=1911872769429, AnimationStart=1911872786329, PerformTraversalsStart=1911872811529, DrawStart=1912583523329, FrameDeadline=1911824781250, FrameStartTime=1911872761229, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=1912595862829, SyncStart=1912603847429, IssueDrawCommandsStart=1912603990029, SwapBuffers=1912661272729, FrameCompleted=1912676873829, DequeueBufferDuration=24000, QueueBufferDuration=225200, GpuCompleted=1912676873829, SwapBuffersCompleted=1912664852429, DisplayPresentTime=0, CommandSubmissionCompleted=1912661272729,
+04-24 15:01:11.515 11285 11285 I Choreographer: Skipped 48 frames!  The application may be doing too much work on its main thread.
+04-24 15:01:11.523   807   960 I ImeTracker: com.example.blegps:6013953c: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-24 15:01:11.526 11285 11285 I ImeTracker: com.example.blegps:6013953c: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-24 15:01:11.529  7161  7161 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2057
+04-24 15:01:11.530  1628  1628 D BaseActivity: Launcher flags updated: [] -[state_started]
+04-24 15:01:11.531  7161  7161 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+04-24 15:01:11.531  1628  1628 D BaseDepthController: setSurface:
+04-24 15:01:11.531  1628  1628 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-24 15:01:11.531  1628  1628 D BaseDepthController: 	mBaseSurface: null
+04-24 15:01:11.533  1628  1628 D BaseDepthController: mSurface is null and mCurrentBlur is: 79
+04-24 15:01:11.535  1628  1628 D ActivityContext: hideKeyboard
+04-24 15:01:11.537   807   822 I ImeTracker: system_server:c9314a9c: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-24 15:01:11.537  1628  1628 D ActivityContext: isImeShown: false
+04-24 15:01:11.537  1628  1628 D StatsLog: LAUNCHER_ONSTOP
+04-24 15:01:11.538   807   836 I ImeTracker: system_server:c9314a9c: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-24 15:01:11.538  1628  7757 D GmsPlayProvider: Shutdown the binder channel gracefully.
+04-24 15:01:11.539  7161  7161 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1318 onStartInput(EditorInfo{EditorInfo{packageName=com.example.blegps, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-24 15:01:11.540  7161  7161 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+04-24 15:01:11.541  1628  1628 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+04-24 15:01:11.543  6897  7048 I FontLog : (REDACTED) Received query %s, URI %s
+04-24 15:01:11.545  6897  7048 I FontLog : (REDACTED) Query [%s] resolved to %s
+04-24 15:01:11.547  1628  2302 I libbinder.IPCThreadState: oneway function results for code 2 on binder at 0x75b4ae08dab0 will be dropped but finished with status UNKNOWN_TRANSACTION
+04-24 15:01:11.551  1628  7757 D GmsPlayProvider: Binder channel is terminated gracefully.
+04-24 15:01:11.552  6897  6897 I PlayCloudSearchChimeraS: Stopping the server
+04-24 15:01:11.552  6897  6897 I PlayCloudSearchLifeCycl: Stopping the GRPC server
+04-24 15:01:11.555  6897  7048 I FontLog : (REDACTED) Fetch %s end status %s
+04-24 15:01:11.566  6897  7048 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+04-24 15:01:11.574  6897  7048 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+04-24 15:01:11.586  1628  1640 W System  : A resource failed to call release.
+04-24 15:01:11.593  1628  1640 W System  : A resource failed to call release.
+04-24 15:01:11.593  1628  1640 W System  : A resource failed to call release.
+04-24 15:01:11.635  1494  1655 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+04-24 15:01:11.638  1494  1655 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+04-24 15:01:11.773  1315  1459 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+04-24 15:01:12.024   807   914 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@6592d69a does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-24 15:01:12.034   646   679 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+04-24 15:01:12.036  1628  1628 D RecentsView: onTaskDisplayChanged: 18, new displayId = 0
+04-24 15:01:12.040 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: PAUSED
+04-24 15:01:12.040 11285 11285 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.blegps.ui.MainActivity@41dd7ec
+04-24 15:01:12.046   807   836 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@6592d69a does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+04-24 15:01:12.049  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:12.049  1315  1459 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@1b3d7b4
+04-24 15:01:12.058   574   574 D Zygote  : Forked child process 11325
+04-24 15:01:12.081 11325 11325 I Zygote  : Process 11325 created for com.example.blegps.test
+04-24 15:01:12.082 11325 11325 I ple.blegps.test: Late-enabling -Xcheck:jni
+04-24 15:01:12.108 11325 11325 I ple.blegps.test: Using CollectorTypeCMC GC.
+04-24 15:01:12.109 11325 11325 W ple.blegps.test: Unexpected CPU variant for x86: x86_64.
+04-24 15:01:12.109 11325 11325 W ple.blegps.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+04-24 15:01:12.116  1635  1650 I adbd    : jdwp connection from 11325
+04-24 15:01:12.134 11325 11325 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+04-24 15:01:12.138   807  1218 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+04-24 15:01:12.149  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:12.157 11325 11325 D CompatChangeReporter: Compat change id reported: 242716250; UID 10242; state: ENABLED
+04-24 15:01:12.172 11325 11325 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-24 15:01:12.178 11325 11325 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~k8HW4h_-BYjBxKxDE3Co_w==/com.example.blegps.test-jXnecjv8EIlXam3EQy9IWA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.blegps.test
+04-24 15:01:12.182 11325 11325 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+04-24 15:01:12.187 11325 11325 D nativeloader: Configuring clns-10 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~k8HW4h_-BYjBxKxDE3Co_w==/com.example.blegps.test-jXnecjv8EIlXam3EQy9IWA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.blegps.test
+04-24 15:01:12.201 11325 11325 D nativeloader: Configuring clns-11 for other apk /data/app/~~k8HW4h_-BYjBxKxDE3Co_w==/com.example.blegps.test-jXnecjv8EIlXam3EQy9IWA==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~k8HW4h_-BYjBxKxDE3Co_w==/com.example.blegps.test-jXnecjv8EIlXam3EQy9IWA==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.blegps.test
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment: Currently set values for:
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment: com.example.blegps.test is not listed in per-application setting
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+04-24 15:01:12.217 11325 11325 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+04-24 15:01:12.246  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:12.262 11325 11325 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+04-24 15:01:12.289 11325 11325 D DesktopExperienceFlags: Toggle override initialized to: false
+04-24 15:01:12.289 11325 11325 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+04-24 15:01:12.307 11325 11339 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv1_CM_emulation.so
+04-24 15:01:12.308 11325 11339 I GFXSTREAM: [eglDisplay.cpp(297)] Opening libGLESv2_emulation.so
+04-24 15:01:12.316 11325 11339 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-24 15:01:12.316 11325 11339 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-24 15:01:12.366 11325 11325 W HWUI    : Unknown dataspace 0
+04-24 15:01:12.394  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:12.395 11325 11325 D VRI[InstrumentationActivityInvoker$EmptyActivity]: WindowInsets changed: 1080x2400 statusBars:[0,63,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,63,0,84]
+04-24 15:01:12.400 11325 11325 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda12@5bb5290
+04-24 15:01:12.403   646   679 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients for descriptor: '(not cached)'
+04-24 15:01:12.407   646  1448 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10242 pid=0
+04-24 15:01:12.407   646  1448 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10242 => denied (396 us)
+04-24 15:01:12.408   646   679 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10242 pid=11325
+04-24 15:01:12.408   646   679 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10242 => denied (192 us)
+04-24 15:01:12.408   646  1448 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10242 pid=0
+04-24 15:01:12.408   646  1448 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10242 => denied (503 us)
+04-24 15:01:12.408   646   679 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10242 pid=11325
+04-24 15:01:12.408   646   679 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10242 => denied (313 us)
+04-24 15:01:12.409   646  1448 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10242 pid=0
+04-24 15:01:12.409   646  1448 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10242 => denied (1277 us)
+04-24 15:01:12.529   807   913 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10242 pid=0
+04-24 15:01:12.529   807   913 D libbinder.PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10242 => denied (181 us)
+04-24 15:01:12.531   807   913 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10242 pid=0
+04-24 15:01:12.531   807   913 D libbinder.PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10242 => denied (1549 us)
+04-24 15:01:12.531   807   913 W libbinder.ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10242 pid=0
+04-24 15:01:12.531   807   913 D libbinder.PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10242 => denied (408 us)
+04-24 15:01:12.583  1628  1628 D ViewRootImpl: Skipping stats log for color mode
+04-24 15:01:12.583  1628  1628 D BaseActivity: Launcher flags updated: [state_started] +[state_started]
+04-24 15:01:12.583  1628  1628 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_user_active] +[state_resumed|state_user_active]
+04-24 15:01:12.586  1628  1628 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+04-24 15:01:12.593  1628  1628 D BaseDepthController: setSurface:
+04-24 15:01:12.593  1628  1628 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+04-24 15:01:12.593  1628  1628 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#335)/@0xa39b1c0
+04-24 15:01:12.593  1628  1628 V BaseDepthController: Applying blur: 79 to Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#335)/@0xa39b1c0 applyImmediately: false
+04-24 15:01:12.593  1628  1628 D BaseDepthController: shouldBlurWorkspace: true targetState: AllApps currentStableState: AllApps mCurrentBlur: 79 mLauncher.getDepthBlurTargets(): [com.android.launcher3.Workspace{5679222 V.ED..... .......D 0,0-1080,2400 #7f0a049d app:id/workspace}, com.android.launcher3.Hotseat{3ebc4b3 V.ED..... .......D 0,1905-1080,2400 #7f0a01ee app:id/hotseat}]
+04-24 15:01:12.609  1315  1678 D WallpaperService: onVisibilityChanged(true): com.android.systemui.wallpapers.ImageWallpaper$CanvasEngine@1698e7d
+04-24 15:01:12.684  1628  1628 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_user_active] +[state_deferred_resumed]
+04-24 15:01:12.684  1628  1628 D StatsLog: LAUNCHER_ONRESUME
+04-24 15:01:12.686  1628  1628 D b/417220811: invalidateLoadedTasks - previous requestLoadId: -1
+04-24 15:01:12.703  1628  1674 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=
+04-24 15:01:12.707  2015  2188 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+04-24 15:01:12.707  2015  2188 I AiAiEcho: EchoTargets:
+04-24 15:01:12.707  2015  2188 I AiAiEcho: Filtered by AiAi flag check:
+04-24 15:01:12.707  2015  2188 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+04-24 15:01:12.707  2015  2188 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+04-24 15:01:12.709  2015  2188 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+04-24 15:01:12.715  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:12.715  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:12.715  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:12.715  1628  1628 D SsBaseTemplateCard: Passed-in item info is null
+04-24 15:01:12.715  1628  1628 I SsBaseTemplateCard: Secondary card pane is null
+04-24 15:01:12.749 11285 11285 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+04-24 15:01:12.756  1628  1628 D LauncherStateManager: StateManager.cancelAnimation: animation ongoing: false, partial trace:
+04-24 15:01:12.756  1628  1628 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.setCurrentAnimation(go/retraceme f3a19d912c87c27267cfbc05ba0bc7b202ab72a6648bd76225f5f7e128d94583:18)
+04-24 15:01:12.756  1628  1628 D LauncherStateManager: 	at com.android.launcher3.QuickstepTransitionManager.createWallpaperOpenAnimations(go/retraceme f3a19d912c87c27267cfbc05ba0bc7b202ab72a6648bd76225f5f7e128d94583:646)
+04-24 15:01:12.756  1628  1628 D LauncherStateManager: 	at com.android.launcher3.QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner.onAnimationStart(go/retraceme f3a19d912c87c27267cfbc05ba0bc7b202ab72a6648bd76225f5f7e128d94583:96)
+04-24 15:01:12.758  1628  1628 D b/311077782: LauncherAnimationRunner.setAnimation
+04-24 15:01:12.767  1628  1628 D BaseActivity: Launcher flags updated: [state_started|state_resumed|state_deferred_resumed|state_window_focused|state_user_active] +[state_window_focused]
+04-24 15:01:12.770   807   960 I ImeTracker: com.google.android.apps.nexuslauncher:ab466fa4: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+04-24 15:01:12.772  1628  1628 I ImeTracker: com.google.android.apps.nexuslauncher:ab466fa4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+04-24 15:01:12.775  7161  7161 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2057
+04-24 15:01:12.778   807   913 I ImeTracker: system_server:c0bff4b5: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+04-24 15:01:12.780  7161  7161 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+04-24 15:01:12.781   807   836 I ImeTracker: system_server:c0bff4b5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+04-24 15:01:12.781   596   596 I RanchuHwc: logCompositionFallbackIfChanged: layer 51 CompositionType fallback from 2 to 1
+04-24 15:01:12.781   596   596 I RanchuHwc: logCompositionFallbackIfChanged: layer 52 CompositionType fallback from 2 to 1
+04-24 15:01:12.782 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: STOPPED
+04-24 15:01:12.782 11285 11285 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.blegps.ui.MainActivity@41dd7ec
+04-24 15:01:12.782  7161  7161 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1318 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+04-24 15:01:12.786  7161  7161 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+04-24 15:01:12.793 11285 11285 D LifecycleMonitor: Lifecycle status change: com.example.blegps.ui.MainActivity@41dd7ec in: DESTROYED
+04-24 15:01:12.793 11285 11285 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+04-24 15:01:12.793 11285 11285 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): null
+04-24 15:01:12.803 11285 11285 D ViewRootImpl: Skipping stats log for color mode
+04-24 15:01:12.814  1628  1628 D RecentsView: onTaskRemoved: 17, not handling task stack changes
+04-24 15:01:12.817  1628  1628 D RecentsView: onTaskRemoved: 17, not handling task stack changes
+04-24 15:01:12.823 11285 11302 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@c7b938e]
+04-24 15:01:12.824 11285 11302 I TestRunner: finished: showsReceiverHomeTab(com.example.blegps.ReceiverUiTest)

@@ -8,6 +8,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReceiverApp() {
     var tab by remember { mutableStateOf(0) }
@@ -46,6 +47,7 @@ fun SettingsScreen() {
     Text("When disabled, app can still use in-app location source for embedded maps.")
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun RowWithSwitch(label: String, checked: Boolean, onCheckedChange: (Boolean) -> Unit) {
     ListItem(

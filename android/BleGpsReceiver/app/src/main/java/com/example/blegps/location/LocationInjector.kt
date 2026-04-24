@@ -10,7 +10,7 @@ import com.google.android.gms.location.LocationServices
 
 class LocationInjector(private val context: Context) {
     private val manager = context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
-    private val fused: FusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(context)
+    private val fused: FusedLocationProviderClient by lazy { LocationServices.getFusedLocationProviderClient(context) }
     private val provider = "blegps_mock"
 
     @SuppressLint("MissingPermission")
@@ -31,7 +31,7 @@ class LocationInjector(private val context: Context) {
         fused.lastLocation
     }.map { Unit }
 
-    @SuppressLint("MissingPermission")
+    @SuppressLint("MissingPermission", "WrongConstant")
     private fun setupProviderIfNeeded() {
         runCatching {
             manager.addTestProvider(
@@ -43,8 +43,8 @@ class LocationInjector(private val context: Context) {
                 true,
                 true,
                 true,
-                0,
-                5
+                1, // POWER_USAGE_LOW
+                1  // ACCURACY_FINE
             )
         }
         runCatching { manager.setTestProviderEnabled(provider, true) }

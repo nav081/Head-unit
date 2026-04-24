@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml:2:1-4:12
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml:2:1-4:12
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\rohit\.gradle\caches\9.0.0\transforms\5b417dc925970f039222ba3221eac148\transformed\material3-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-android:1.6.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\35a78ce51ed6b32bca6b2c1cdca8b144\transformed\material-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.6.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\595559d247ba0080ac5954fdca6533ab\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
@@ -60,52 +61,64 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rohit\.gradle\cach
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e97252bac2065fe12fac0de7ef47a85f\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e4c5d30852cc56b03436b5fefd520525\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:11-57
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:11-57
 	android:versionCode
-		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:3:5-63
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:3:5-79
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:4:5-79
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:3:22-76
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:4:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:4:5-81
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:4:22-78
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:5:5-77
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:6:5-77
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:5:22-74
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:6:22-74
 uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:6:5-86
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:7:5-86
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:6:22-83
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:7:22-83
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:8:5-94
+	android:name
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:8:22-91
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:9:5-89
+	android:name
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:9:22-86
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:10:22-74
 uses-permission#android.permission.BLUETOOTH
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:7:5-68
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:7:22-65
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:11:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:8:5-74
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:12:5-74
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:8:22-71
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:12:22-71
 uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:9:5-73
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:13:5-73
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:9:22-70
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:13:22-70
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:10:5-76
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:10:22-73
-uses-permission#android.permission.ACCESS_MOCK_LOCATION
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:14:22-73
 application
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:13:5-32:19
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:13:5-32:19
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:16:5-40:19
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e296439eafe35a43c2ceb7fe74db1b3f\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e296439eafe35a43c2ceb7fe74db1b3f\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-maps:19.0.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\8faa7d306ba5585a37f538b87b4edb4e\transformed\play-services-maps-19.0.0\AndroidManifest.xml:36:5-42:19
@@ -131,45 +144,59 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rohit\.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rohit\.gradle\caches\9.0.0\transforms\584deb1ec46504a626cb47457a13e4ab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\rohit\.gradle\caches\9.0.0\transforms\584deb1ec46504a626cb47457a13e4ab\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\rohit\.gradle\caches\9.0.0\transforms\d748e58f66ec63acdba4e0c57e950ee6\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:18:9-41
+	android:testOnly
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 	android:allowBackup
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:16:9-72
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:19:9-72
 activity#com.example.blegps.ui.MainActivity
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:18:9-25:20
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:21:9-28:20
 	android:exported
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:19:13-44
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:22:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:21:13-24:29
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:26:27-74
 service#com.example.blegps.ble.BleReceiverService
-ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:27:9-31:72
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:30:9-39:19
 	android:enabled
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:29:13-35
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:32:13-35
 	android:exported
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:30:13-37
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:33:13-37
+	tools:ignore
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:35:13-55
 	android:foregroundServiceType
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:31:13-69
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:34:13-80
 	android:name
-		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:28:13-51
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:31:13-51
+property#android.app.PROPERTY_SPECIAL_USE_FGS_TYPE
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:36:13-38:60
+	android:value
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:38:17-57
+	android:name
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:37:17-73
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml:3:22-76
 uses-sdk
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
-INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
+INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\rohit\.gradle\caches\9.0.0\transforms\5b417dc925970f039222ba3221eac148\transformed\material3-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\rohit\.gradle\caches\9.0.0\transforms\5b417dc925970f039222ba3221eac148\transformed\material3-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-android:1.6.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\35a78ce51ed6b32bca6b2c1cdca8b144\transformed\material-release\AndroidManifest.xml:5:5-44
@@ -281,9 +308,9 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\rohit\.gradle\caches\9.0.0
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e4c5d30852cc56b03436b5fefd520525\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e4c5d30852cc56b03436b5fefd520525\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Projects\Headunit\android\BleGpsReceiver\app\src\debug\AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\rohit\.gradle\caches\9.0.0\transforms\e296439eafe35a43c2ceb7fe74db1b3f\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
 	android:exported

@@ -1,0 +1,103 @@
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:45: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.18.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.13.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:46: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.3 is available: 2.10.0 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.3")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:47: Warning: A newer version of androidx.activity:activity-compose than 1.9.1 is available: 1.13.0 [GradleDependency]
+    implementation("androidx.activity:activity-compose:1.9.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:48: Warning: A newer version of androidx.fragment:fragment-ktx than 1.7.1 is available: 1.8.9 [GradleDependency]
+    implementation("androidx.fragment:fragment-ktx:1.7.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:49: Warning: A newer version of androidx.compose.ui:ui than 1.6.8 is available: 1.11.0 [GradleDependency]
+    implementation("androidx.compose.ui:ui:1.6.8")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:50: Warning: A newer version of androidx.compose.material3:material3 than 1.2.1 is available: 1.4.0 [GradleDependency]
+    implementation("androidx.compose.material3:material3:1.2.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:51: Warning: A newer version of androidx.compose.ui:ui-tooling-preview than 1.6.8 is available: 1.11.0 [GradleDependency]
+    implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:52: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.8.1 is available: 1.9.0 [GradleDependency]
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:54: Warning: A newer version of com.google.android.gms:play-services-maps than 19.0.0 is available: 20.0.0 [GradleDependency]
+    implementation("com.google.android.gms:play-services-maps:19.0.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:61: Warning: A newer version of androidx.compose.ui:ui-test-junit4 than 1.6.8 is available: 1.11.0 [GradleDependency]
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.6.8")
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+E:\Projects\Headunit\android\BleGpsReceiver\app\build.gradle.kts:62: Warning: A newer version of androidx.compose.ui:ui-tooling than 1.6.8 is available: 1.11.0 [GradleDependency]
+    debugImplementation("androidx.compose.ui:ui-tooling:1.6.8")
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\java\com\example\blegps\ble\BleReceiverService.kt:82: Warning: Unnecessary; SDK_INT is always >= 29 [ObsoleteSdkInt]
+            } else if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\java\com\example\blegps\screens\ReceiverScreens.kt:14: Information: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var tab by remember { mutableStateOf(0) }
+                          ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AutoboxingStateCreation":
+   Calling mutableStateOf<T>() when T is either backed by a primitive type on
+   the JVM or is a value class results in a state implementation that requires
+   all state values to be boxed. This usually causes an additional allocation
+   for each state write, and adds some additional work to auto-unbox values
+   when reading the value of the state. Instead, prefer to use a specialized
+   primitive state implementation for Int, Long, Float, and Double when the
+   state does not need to track null values and does not override the default
+   SnapshotMutationPolicy. See mutableIntStateOf(), mutableLongStateOf(),
+   mutableFloatStateOf(), and mutableDoubleStateOf() for more information.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.runtime
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\res\values\strings.xml:2: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
+    <string name="app_name">BLE GPS Receiver</string>
+            ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+E:\Projects\Headunit\android\BleGpsReceiver\app\src\main\AndroidManifest.xml:16: Warning: Should explicitly set android:icon, there is no default [MissingApplicationIcon]
+    <application
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "MissingApplicationIcon":
+   You should set an icon for the application as whole because there is no
+   default. This attribute must be set as a reference to a drawable resource
+   containing the image (for example @drawable/icon).
+
+   https://developer.android.com/studio/publish/preparing#publishing-configure
+
+0 errors, 14 warnings
